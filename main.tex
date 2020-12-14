@@ -1,0 +1,40 @@
+\documentclass{ULBreport}
+
+\sceau{Pictures/sceauULB.jpg}
+
+\addbibresource{biblio.bib}
+
+\begin{document}
+
+\titleULB{
+	title={Exemple de Titre},
+	studies={Année d'étude},
+	course={Nom du cours},
+	author={Auteur\\ Auteur\\ Auteur},
+	date={2020},
+	teacher={Professeurs et/ou\\ superviseurs},
+	logo={Pictures/logo-mastic.png},
+	manyAuthor
+}
+
+\chapter{Introduction}
+
+c'est une citation \cite{Exemple}.
+
+Texte de l'introduction
+\section{Point 1}
+Texte du point 1
+\subsection{Sous-point 1}
+Texte du sous-point 1
+
+\chapter{Chapitre 1}
+Texte du chapitre 1
+\section{Point 1}
+Texte du point 1
+\subsection{Sous-point 1}
+Texte du sous-point 1
+%Bibliography
+\nocite{*}
+\printbibliography[type=article,title=Articles]
+
+\end{document}
